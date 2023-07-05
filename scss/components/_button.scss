@@ -1,0 +1,20 @@
+.button {
+  box-sizing: border-box;
+  font-family: var(--text-font);
+  padding: 17px 34px;
+  font-size: 13px;
+  line-height: 1.539;
+  letter-spacing: 0.12em;
+  color: var(--title-color);
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ffffff;
+  border: 2px solid var(--acent-color);
+  transition: all 400ms linear;
+
+  &:hover,
+  &:focus {
+    background-color: var(--acent-color);
+    color: var(--text-color-light);
+  }
+}

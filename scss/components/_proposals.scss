@@ -1,0 +1,36 @@
+.proposals {
+  padding: 100px 0;
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    width: 380px;
+  }
+
+  &__img {
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    font-family: var(--title-font);
+    font-size: 26px;
+    line-height: 1.42;
+    letter-spacing: 0.012em;
+    margin-bottom: 15px;
+  }
+
+  &__descriotion {
+    font-family: var(--text-font);
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    margin-bottom: 15px;
+  }
+
+  &__btn {
+    margin-bottom: 10px;
+  }
+}

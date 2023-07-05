@@ -11,4 +11,6 @@
 <li>SCSS</li>
 </ul>
 
+<img src="images/jpg/mobile.jpg" alt="mobile" style="width:280px;">
+
 July 2023
